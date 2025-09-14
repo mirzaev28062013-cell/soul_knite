@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px 0;
-    max-width: 520px;
+    max-width: 370px;
   }
 
   .list {
@@ -12,7 +12,7 @@
 
   .enter-btn {
     padding: 8px 12px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .footer__bottom {
@@ -51,11 +51,11 @@
   }
 
   .enter {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .link {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .about {
@@ -69,13 +69,13 @@
   .about__title,
   .players__title {
     text-align: center;
-    font-size: 36px;
+    font-size: 26px;
     margin-bottom: 40px;
   }
 
   .text,
   .players__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .two {
@@ -84,11 +84,12 @@
   }
 
   .about__right {
-    height: 550px;
+    height: 400px;
   }
 
   .about__right img {
     height: 100%;
+    width: 100%;
   }
 
 
@@ -106,10 +107,11 @@
   .plaers_item h3 {
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 22px;
   }
 
   .plaers_item p {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .modes {
@@ -132,7 +134,7 @@
   }
 
   .modes__block img {
-    height: 150px;
+    height: 130px;
   }
 
   .modes__left {
@@ -140,13 +142,39 @@
   }
 
   .desc__title {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .desc__text {
-    font-size: 19px;
-    margin-top: 20px;
+    font-size: 14px;
+    margin-top: 10px;
   }
 
+  .modes__right img {
+    width: 100%;
+  }
+
+
+  .footer__icons {
+    gap: 30px;
+  }
+
+  .footer__title {
+    font-size: 13px;
+  }
+
+  .footer_list {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer_right {
+    flex-direction: column;
+  }
+
+  .footer_list a {
+    font-size: 16px;
+  }
 
 }
