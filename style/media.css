@@ -1,0 +1,152 @@
+@media (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    max-width: 520px;
+  }
+
+  .list {
+    gap: 30px;
+  }
+
+  .enter-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 30px;
+  }
+
+  .footer_list {
+    gap: 40px;
+  }
+
+  .header {
+    height: 700px;
+  }
+
+  .hero__title {
+    font-size: 26px;
+    max-width: 250px;
+  }
+
+  .hero__text {
+    max-width: 500px;
+    font-size: 22px;
+  }
+
+  .hero__btn {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .hero {
+    padding-left: 20px;
+    height: 500px;
+  }
+
+  .enter {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 18px;
+  }
+
+  .about {
+    margin-top: 80px;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .about__title,
+  .players__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .text,
+  .players__text {
+    font-size: 18px;
+  }
+
+  .two {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .about__right {
+    height: 550px;
+  }
+
+  .about__right img {
+    height: 100%;
+  }
+
+
+  .players_items {
+    flex-wrap: wrap;
+  }
+
+  .players_item {
+    align-items: center;
+    text-align: center;
+    height: initial;
+    padding: 30px 0;
+  }
+
+  .plaers_item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .plaers_item p {
+    font-size: 18px;
+  }
+
+  .modes {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  .modes__title {
+    font-size: 36px;
+  }
+
+  .modes__block {
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .modes__block img {
+    height: 150px;
+  }
+
+  .modes__left {
+    margin: 0 auto;
+  }
+
+  .desc__title {
+    font-size: 26px;
+  }
+
+  .desc__text {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+
+
+}
